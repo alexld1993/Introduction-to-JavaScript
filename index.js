@@ -197,10 +197,11 @@ Using the feet function below do the following:
   3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-    /*add your code here*/
+function feet(cm){
+    return cm * 0.0328084;
   }
  
+  console.log(feet(1334));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -213,8 +214,10 @@ Using the annoyingSong function below do the following:
       "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
 
-function annoyingSong(/*add your code here*/){
-        /*add your code here*/
+function annoyingSong(startNum){
+  for(let i = 0; i < 5; i++){
+    //   console.log(i);
+    // }
   }
 
 
@@ -247,7 +250,7 @@ function grade(num){
     }
   }
   
-  console.log('grade function', grade(85));
+  console.log('grade function', grade(87));
   
   
 
