@@ -18,7 +18,11 @@ Do the following:
    HINT: no function required
 */
 
-
+const votingAge=19;
+   
+if (votingAge>=18){
+console.log(true);
+}
 
 /*
 Task 1b - Values
@@ -31,9 +35,13 @@ Do the following:
    HINT: no function required
 */
 
+let myAge=27;
+let mydogsAge=4;
 
-
-
+if(mydogsAge===4){
+  myAge=28;
+  console.log(myAge);
+}
 
 /*
 Task 1c - Convert Strings to Numbers
@@ -45,7 +53,6 @@ Do the following:
 
    HINT: look up the Number method
 */
-
 
 
 
