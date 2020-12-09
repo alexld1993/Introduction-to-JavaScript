@@ -163,6 +163,8 @@ Use the game function below to do the following:
   HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
 */
 
+var computersChoice = Math.random();
+
 function game(user, computer){
     /*add your code here*/
 }
@@ -180,10 +182,11 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
-  }
+function miles(km){
+  return km * 0.621371;
+}
 
+console.log(miles(15));
 
 
 //Task 5b - Feet to CM
