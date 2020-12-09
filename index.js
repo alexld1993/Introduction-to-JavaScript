@@ -265,11 +265,11 @@ Using the vowelCounter function below do the following:
 */
 
 
-function vowelCounter(/*add your code here*/) {
-    /*add your code here*/
-}
-
-
+function vowelCounter(str) {
+  return (str.match(/[aeiou]/ig)||[]).length;
+  }
+  
+  console.log(vowelCounter("Spaghetti"));
 
 /*🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑*/
 function foo(){
