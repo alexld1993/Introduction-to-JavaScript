@@ -54,8 +54,9 @@ Do the following:
    HINT: look up the Number method
 */
 
-
-
+let year = "1999";
+year = parseInt(year);
+console.log(year);
 /*
 Task 1d - Multiply
  
@@ -69,7 +70,7 @@ function multiply(a,b){
     return a*b;
   }
 
-
+  console.log(multiply(2,5));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
