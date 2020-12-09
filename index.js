@@ -215,9 +215,7 @@ Using the annoyingSong function below do the following:
 */
 
 function annoyingSong(startNum){
-  for(let i = 0; i < 5; i++){
-    //   console.log(i);
-    // }
+  
   }
 
 
